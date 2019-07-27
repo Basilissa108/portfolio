@@ -1,0 +1,64 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "project_name": "Random Quotes Generator",
+            "description": "This project is a random quote generator, which displays quotations on a page, and can be controlled by the user.",
+            "technologies": ["HTML", "CSS", "Vanilla JavaScript"],
+            "live_link": "http://random-quotes-generator.basilissa-albers.com/",
+            "github_link": "https://github.com/Basilissa108/random-quotes-generator",
+            "image_urls": [
+                "images/random_quotes_generator_1.png",
+                "images/random_quotes_generator_2.png"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "Pagination and Content Filter",
+            "description": "This project is focusing on displaying a long list student information in a more optimal way by paginating the list and allowing the user to search for a specific student.",
+            "technologies": ["HTML", "CSS", "Vanilla JavaScript"],
+            "live_link": "http://pagination-and-content-filter.basilissa-albers.com/",
+            "github_link": "https://github.com/Basilissa108/pagination-and-content-filter",
+            "image_urls": [
+                "images/pagination_content_filter_1.png",
+                "images/pagination_content_filter_2.png"
+            ]
+        },
+        {
+            "id": 3,
+            "project_name": "OOP Game Show App",
+            "description": "This project is a browser-based, word guessing game. It is using JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard.",
+            "technologies": ["HTML", "CSS", "jQuery"],
+            "live_link": "http://oop-game-show-app.basilissa-albers.com/",
+            "github_link": "https://github.com/Basilissa108/oop-game-show-app",
+            "image_urls": [
+                "images/game_show_app_1.png",
+                "images/game_show_app_2.png"
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "Interactive Form",
+            "description": "This project is an interactive form for a fictional conference, which uses customized and conditional behavior and interactivity, as well as live validation to improve the user experience.",
+            "technologies": ["HTML", "CSS", "jQuery"],
+            "live_link": "http://interactive-form.basilissa-albers.com/",
+            "github_link": "https://github.com/Basilissa108/interactive-form",
+            "image_urls": [
+                "images/interactive_form_1.png",
+                "images/interactive_form_2.png"
+            ]
+        },
+        {
+            "id": 5,
+            "project_name": "Employee Directory",
+            "description": "This is a project which calls a public API to fetch information about 12 random people to be displayed in an employee directory of a fictional company.",
+            "technologies": ["HTML", "CSS", "jQuery"],
+            "live_link": "http://employee-directory.basilissa-albers.com/",
+            "github_link": "https://github.com/Basilissa108/employee-directory",
+            "image_urls": [
+                "images/employee_directory_1.png",
+                "images/employee_directory_2.png"
+            ]
+        }
+    ]
+}
