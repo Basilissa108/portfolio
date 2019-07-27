@@ -24,9 +24,9 @@ app.get("/about", (req, res) => {
 
 app.get("/project/:id", (req, res) => {
     // get project id from params
-    var id = req.params.id;
+    const id = req.params.id;
     // find project by id in data.projects array
-    var project = data.projects.find(project => project.id == id);
+    const project = data.projects.find(project => project.id == id);
     
     // check if there is a project with the id and display it, otherwise redirect to the 404 to change the URL and display an error using the fallback route
     if (project) {
@@ -40,7 +40,16 @@ app.get("/project/:id", (req, res) => {
 
 // set up a fallback route to display a 404 error for not existing routes
 app.get("*", (req, res) => {
-    res.render("error.pug");
+    // instantiate new error and assign it to the variable err
+    const err = new Error("Page not found - the page you were trying to access doesn't exist.");
+    // set the error status to 404
+    err.status = 404;
+    // set the response status to the error's status
+    res.status(err.status);
+    // render the error view and pass in the error
+    res.render("error.pug", {
+        err
+    });
 });
 
 app.listen(3000, () => console.log(`Example app listening on port ${3000}!`))
